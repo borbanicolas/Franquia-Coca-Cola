@@ -14,23 +14,53 @@
     <title>Coca-Cola</title>
 </head>
 <body class="app">
-    <div class="background-banner">
-        <header>
-            <div class="header-content">
-                <img src="assets/logo.png" alt="" class="logo">
-                <ul class="menu">
-                    <li class="item-menu"><a href="">Quem Somos</a></li>
-                    <li class="item-menu"><a href="">Nossas Marcas</a></li>
-                    <li class="item-menu"><a href="">Contato</a></li>
-                </ul>
-                <button>Onde nos encontrar</button>
-            </div>
-        </header>
-        <div class="banner">
+    
+    
+    <header>
+        <div class="header-content">
+            <img src="assets/logo.png" alt="" class="logo">
+            <ul class="menu">
+                <li class="item-menu"><a href="">Quem Somos</a></li>
+                <li class="item-menu"><a href="">Nossas Marcas</a></li>
+                <li class="item-menu"><a href="">Contato</a></li>
+            </ul>
+            <button>Onde nos encontrar</button>
+        </div>
+    </header>    
+    
+        
+    <div class="slider">
+        <div class="slides">
 
+            <input type="radio" name="radio" id="radio1">
+            <input type="radio" name="radio" id="radio2">
+            <input type="radio" name="radio" id="radio3">
+            <input type="radio" name="radio" id="radio4">
+    
+            <div class="slide first">
+                <img src="assets/banner1t.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/banner2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/banner3t.jpeg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+        <div class="manual-nav">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
         </div>
     </div>
     
-
+    
+    <script src="JS/slides.js"></script>
 </body>
 </html>
